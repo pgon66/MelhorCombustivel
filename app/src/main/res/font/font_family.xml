@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:font="@font/habanerarounded_black" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/habanerarounded_bold" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/habanerarounded_extbdita" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/habanerarounded_extrabold" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/habanerarounded_light" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/habanerarounded_medium" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/habanerarounded_regular" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/habanerarounded_semibold" />
+</font-family>

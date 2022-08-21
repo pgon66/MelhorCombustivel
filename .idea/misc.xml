@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/drawable-v24/gradient_background.xml" value="0.1655" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/drawable/button_style.xml" value="0.314" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/drawable/container_style.xml" value="0.3525" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/drawable/view_fullscreen.xml" value="0.2645" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/font-v26/font_family.xml" value="0.3037037037037037" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/font/font.xml" value="0.3037037037037037" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/font/font_family.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/layout/activity_main.xml" value="0.328804347826087" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/MelhorCombustivel/app/src/main/res/layout/activity_result.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

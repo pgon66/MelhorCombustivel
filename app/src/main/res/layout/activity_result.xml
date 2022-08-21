@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoMelhorCombustivel"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:contentDescription="@string/logotipo"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/habanerarounded_medium"
+            android:padding="20dp"
+            android:text="@string/veja_qual_op_o_mais_vantajosa"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/container_style"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/textViewConteudo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/habanerarounded_medium"
+                android:padding="10dp"
+                android:text="@string/valores_informados"
+                android:textColor="#676767"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/campo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/campoDados"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/layoutGasolina"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="20dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/iconevalorgasolina"
+                            android:padding="2.5dp"
+                            android:src="@drawable/comb1" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="160dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/habanerarounded_regular"
+                            android:paddingStart="6dp"
+                            android:text="@string/gasolina"
+                            android:textColor="#1C1C1C"
+                            android:textSize="18sp"
+                            tools:ignore="RtlSymmetry" />
+
+                        <LinearLayout
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/valorPorLitro"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/habanerarounded_medium"
+                                    android:gravity="end"
+                                    android:text="@string/valor_por_litro"
+                                    android:textColor="#191919" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="end"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/resultadoValor"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/habanerarounded_medium"
+                                        android:gravity="end" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/kmLitro"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/habanerarounded_medium"
+                                android:gravity="end"
+                                android:text="@string/km_por_litro"
+                                android:textColor="#191919" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="end"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/resultadoKmL"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/habanerarounded_medium"
+                                    android:gravity="end" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#a9a9a9"
+                        android:padding="5dp" />
+
+                    <LinearLayout
+                        android:id="@+id/layoutEtanol"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="20dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/iconevaloretanol"
+                            android:padding="2.5dp"
+                            android:src="@drawable/comb2" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="160dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/habanerarounded_regular"
+                            android:paddingStart="6dp"
+                            android:text="@string/etanol"
+                            android:textColor="#1C1C1C"
+                            android:textSize="18sp"
+                            tools:ignore="RtlSymmetry" />
+
+                        <LinearLayout
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/valorPorLitroEtanol"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/habanerarounded_medium"
+                                    android:gravity="end"
+                                    android:text="@string/valor_por_litr"
+                                    android:textColor="#191919" />
+
+                                <TextView
+                                    android:id="@+id/resultadoValorEtanol"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/habanerarounded_medium"
+                                    android:gravity="end" />
+
+                                <TextView
+                                    android:id="@+id/kmLitroEtanol"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/habanerarounded_medium"
+                                    android:gravity="end"
+                                    android:text="@string/km_por_l"
+                                    android:textColor="#191919" />
+
+                                <TextView
+                                    android:id="@+id/resultadoKmLEtanol"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/habanerarounded_medium"
+                                    android:gravity="end" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#a9a9a9"
+                        android:padding="5dp" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                    <TextView
+                        android:id="@+id/resultadoConsumo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/habanerarounded_medium"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1"
+                        android:padding="5dp"
+                        android:textColor="#676767"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/ResultTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/habanerarounded_medium"
+                        android:padding="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#FD3737"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:id="@+id/resultadoEconomia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/habanerarounded_medium"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:textColor="#676767"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/view7"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp" />
+
+                    <Button
+                        android:id="@+id/back_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="fill_horizontal|top|center_vertical"
+                        android:background="@drawable/button_style"
+                        android:backgroundTint="#FD3737"
+                        android:fontFamily="@font/habanerarounded_bold"
+                        android:text="@string/voltar"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MelhorCombustivel</string>
+    <string name="logotipo">Logotipo</string>
+    <string name="veja_qual_op_o_mais_vantajosa">Veja qual opção é mais vantajosa</string>
+    <string name="informe_o_valor_do_combust_vel">Informe o valor do combustível</string>
+    <string name="iconegasolina">iconeGasolina</string>
+    <string name="gasolina">Gasolina</string>
+    <string name="r">R$</string>
+    <string name="_0_00">0,00</string>
+    <string name="_000">0.00</string>
+    <string name="iconeetanol" />
+    <string name="etanol">Etanol</string>
+    <string name="_00">0.00</string>
+    <string name="calcular">Calcular</string>
+    <string name="informe_o_consumo_do_seu_ve_culo">Informe o consumo do seu veículo</string>
+    <string name="informe_o_consumo_do_seu_veiculo">Informe o consumo do seu veículo</string>
+    <string name="iconeconsumoetanol">iconeConsumoEtanol</string>
+    <string name="iconeconsumogasolina">iconeConsumoGasolina</string>
+    <string name="iconevaloretanol">iconeValorEtanol</string>
+    <string name="iconevalorgasolina">iconeValorGasolina</string>
+    <string name="voltar">voltar</string>
+    <string name="km_l">km/l</string>
+    <string name="km_l2">km/l</string>
+    <string name="valores_informados">Valores informados</string>
+    <string name="valor_por_litro">Valor por Litro</string>
+    <string name="km_por_litro">KM por Litro</string>
+    <string name="valor_por_litr">Valor por Litro</string>
+    <string name="km_por_l">KM por Litro</string>
+</resources>
