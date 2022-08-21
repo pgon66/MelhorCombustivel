@@ -26,4 +26,5 @@
     <string name="km_por_litro">KM por Litro</string>
     <string name="valor_por_litr">Valor por Litro</string>
     <string name="km_por_l">KM por Litro</string>
+    <string name="informe_o_valor_do_combut_vel">Informe o valor do combutível</string>
 </resources>

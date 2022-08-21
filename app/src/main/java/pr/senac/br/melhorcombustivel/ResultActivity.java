@@ -38,7 +38,6 @@ public class ResultActivity extends Activity {
         double resultadoConsumoGasolina = valorGasolinaBack / consumoGasolinaBack;
         double resultadoConsumoEtanol = valorEtanolBack / consumoEtanolBack;
         double resultadoConsumo = 0;
-        double resultado = resultadoConsumoEtanol / resultadoConsumoGasolina;
         double relacaoCombustivel = (valorEtanolBack / valorGasolinaBack) * 100;
 
         resultadoValor.setText("R$ " + valorGasolina);
@@ -59,8 +58,7 @@ public class ResultActivity extends Activity {
             resultadoEconomia.setText(String.format("Economia de R$%.2f", resultadoConsumo) + " por litro");
         }
 
-
-        if(resultado >= 0.7) {
+        if(relacaoCombustivel >= 70) {
             resultadoView.setText("Abasteça com Gasolina");
         } else {
             resultadoView.setText("Abasteça com Etanol");

@@ -11,7 +11,6 @@ import android.widget.EditText;
 
 import androidx.annotation.Nullable;
 
-
 public class MainActivity extends Activity {
 
     public static final String EXTRA_VALOR_GASOLINA = "VALOR_GASOLINA";
